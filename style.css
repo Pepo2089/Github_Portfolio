@@ -1,10 +1,24 @@
+body{
+    background-color: rgb(233, 168, 88);
+}
 .flex-container {
     display: flex;
     gap: 5px;
     justify-content: center;
     align-items: center;
+    /* Erlaubt das automatische "Nach-unten-rutschen" */
+    flex-wrap: wrap; 
+    /* max-width: 800px;  Begrenzt die Breite, damit nach 4 Karten umgebrochen wird */
+    /*margin: 0 auto;*/
 }
- 
+h1 {
+    color: brown;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+}
 .card {
     background-color: rgb(101, 255, 250);
     border: 5px solid rgb(82, 82, 82);

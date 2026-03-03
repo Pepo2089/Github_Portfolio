@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.color-item {
+    margin-bottom: 30px;
+}
+
+.color-label {
+    margin-bottom: 10px;
+    font-weight: normal; /* Anforderung 1 */
+    font-size: 16px;
+}
+
+/* Anforderung 2: Textfarbe entspricht der Bedeutung */
+#rojo-label {
+    color: red;
+}
+
+#azul-label {
+    color: #4DA6FF;
+}
+
+#anaranjado-label {
+    color: orange;
+}
+
+.color-box {
+    width: 200px;      /* 200px Breite */
+    height: 200px;     /* 200px Höhe */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
